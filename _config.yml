@@ -1,3 +1,4 @@
 markdown: redcarpet
 baseurl: /instajs-ide
 exclude: ['README.md']
+theme: jekyll-theme-minimal
