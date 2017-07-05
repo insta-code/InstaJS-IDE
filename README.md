@@ -1,12 +1,5 @@
 ### InstaJS Cloud IDE Support Page
 
-<ul>
-  <li><a href="default.asp">Standard</a></li>
-  <li><a href="news.asp">Core</a></li>
-  <li><a href="contact.asp">Mobile</a></li>
-  <li><a href="about.asp">About</a></li>
-</ul>
-
 Edit this: [editor on GitHub](https://github.com/insta-code/instajs-ide/edit/gh-pages/README.md) 
 
 Welcome to the the InstaJS Cloud IDE support page. API reference for all components may be found here.
