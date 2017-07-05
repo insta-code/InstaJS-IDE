@@ -1,9 +1,9 @@
-## InstaJS Cloud IDE Support Page
+## ![Image]('https://cdn.instajs.com/assets/076516bf-a8a1-4426-a506-2a401effa918/Insta-JS_logo_2.svg?size=t') InstaJS Cloud IDE Support Page
 
 You can use the [editor on GitHub](https://github.com/insta-code/instajs-ide/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
 
 Welcome to the the InstaJS Cloud IDE support page. API reference for all components may be found here.
-### Markdown
+### Mobile 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
