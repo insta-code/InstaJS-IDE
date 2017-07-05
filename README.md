@@ -1,5 +1,12 @@
 ## Welcome to GitHub Pages
 
+<div class="sidebar-right sidebar right column-4">
+  <p>Did you know ...</p>
+  <ul class="fact-list smaller">
+    ...
+  </ul>
+</div>
+
 You can use the [editor on GitHub](https://github.com/insta-code/instajs-ide/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
