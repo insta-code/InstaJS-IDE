@@ -1,3 +1,5 @@
 markdown: kramdown
 baseurl: /instajs-ide
 theme: jekyll-theme-slate
+title: InstaJS Cloud IDE Support Page
+description: Online support page and api reference for InstaJS Cloud IDE
