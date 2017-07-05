@@ -1,4 +1,4 @@
-## InstaJS Cloud IDE 
+## InstaJS Cloud IDE Support Page
 
 You can use the [editor on GitHub](https://github.com/insta-code/instajs-ide/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
 
