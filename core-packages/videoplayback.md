@@ -1,4 +1,4 @@
-# VideoPlayback
+# TVideoPlayback
 Help page for the VideoPlayback component on InstaJS Cloud IDE. videotest.frm is provided in this repository to demonstrate the methods and properties of this component.
 
 ## Methods:
