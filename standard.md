@@ -2,7 +2,7 @@
 
 The following sections focus on components under Standard
 
-* TLabel[www.google.com]
+* TLabel
 * TButton
 * TEdit
 * TCheckbox
