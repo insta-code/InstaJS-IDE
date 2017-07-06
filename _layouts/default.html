@@ -39,7 +39,12 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <div  class="container-fluid">
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
+    </div>
+    
+    <div  class="container-fluid">
             <div class="row">
                 <div class="col-sm-3">
                     <div class="nav-side-menu">
@@ -62,10 +67,6 @@
                         </div>
                     </div>
                 </div>
-      <section id="main_content" class="inner">
-        {{ content }}
-      </section>
-    </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
