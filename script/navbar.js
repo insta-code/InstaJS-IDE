@@ -1,30 +1,25 @@
-$(document).ready(function() {
-    $("#navToggle a").click(function(e){
-        e.preventDefault();
-        
-        $("header > nav").slideToggle("medium");
-        $("#logo").toggleClass("menuUp menuDown");
-    });
-    
-    $(window).resize(function() {
-        if($( window ).width() >= "600") {
-            $("header > nav").css("display", "block");
-            
-            if($("#logo").attr('class') == "menuDown") {
-                $("#logo").toggleClass("menuUp menuDown");
-            }
-        }
-        else {
-            $("header > nav").css("display", "none");
-        }
-    });
-    
-    $("header > nav > ul > li > a").click(function(e) {
-        if($( window ).width() <= "600") {
-            if($(this).siblings().size() > 0 ) {
-                $(this).siblings().slideToggle("fast")
-                $(this).children(".toggle").html($(this).children(".toggle").html() == 'close' ? 'expand' : 'close');
-            }
-        }
-    });
-});
+    function htmlbodyHeightUpdate(){
+		var height3 = $( window ).height()
+		var height1 = $('.nav').height()+50
+		height2 = $('.main').height()
+		if(height2 > height3){
+			$('html').height(Math.max(height1,height3,height2)+10);
+			$('body').height(Math.max(height1,height3,height2)+10);
+		}
+		else
+		{
+			$('html').height(Math.max(height1,height3,height2));
+			$('body').height(Math.max(height1,height3,height2));
+		}
+		
+	}
+	$(document).ready(function () {
+		htmlbodyHeightUpdate()
+		$( window ).resize(function() {
+			htmlbodyHeightUpdate()
+		});
+		$( window ).scroll(function() {
+			height2 = $('.main').height()
+  			htmlbodyHeightUpdate()
+		});
+	});
