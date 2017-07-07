@@ -1,4 +1,4 @@
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 title: InstaJS Cloud IDE Support Page
 description: Online support page and API reference for InstaJS Cloud IDE
